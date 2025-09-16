@@ -8,7 +8,7 @@ Currently, it includes the book of **Genesis (50 chapters)**, where you can chec
 
 ## ✨ Features
 - ✅ Interactive checklist of Genesis chapters (1–50)  
-- 💾 Saves progress in **localStorage** (remembers even after closing browser)  
+- 💾 Saves progress in **localStorage** 
 - 📊 Shows percentage completion  
 - 🔄 Options to reset, mark all read/unread  
 - 🔐 Demo login system (can be linked to backend later)  
