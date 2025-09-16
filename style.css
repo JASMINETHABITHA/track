@@ -1,0 +1,79 @@
+/* style.css - Bible Reading Tracker */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(135deg, #f0f7ff, #e8f6ee);
+  margin: 0;
+  padding: 24px;
+  color: #222;
+}
+
+h1 {
+  text-align: center;
+  color: #173f5f;
+  margin-bottom: 6px;
+}
+.subtitle {
+  text-align: center;
+  color: #3e606f;
+  margin-bottom: 20px;
+}
+
+.tracker-card {
+  max-width: 760px;
+  margin: 0 auto 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(31, 58, 147, 0.08);
+}
+
+.summary {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.chapter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 10px;
+}
+
+.chapter-list li {
+  background: linear-gradient(135deg,#f6fbff,#eaf6ff);
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid rgba(18,66,117,0.06);
+}
+
+.controls {
+  margin-top: 16px;
+  display:flex;
+  gap:10px;
+  justify-content:flex-end;
+}
+
+button {
+  padding: 8px 14px;
+  border: none;
+  background: linear-gradient(90deg,#4facfe,#00f2fe);
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 6px 12px rgba(15,76,129,0.08);
+}
+button:hover { opacity: 0.95; }
+
+.login-card {
+  max-width: 420px;
+  margin: 12px auto;
+  background: linear-gradient(135deg,#fff7ed,#fff2e8);
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.04);
+  text-align: center;
