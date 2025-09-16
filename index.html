@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bible Reading Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>📖 Bible Reading Tracker</h1>
+  <p class="subtitle">Track your progress through Genesis (50 chapters)</p>
+
+  <!-- Tracker Section -->
+  <div class="tracker-card">
+    <div id="summary" class="summary"></div>
+    <ul id="chapterList" class="chapter-list"></ul>
+
+    <div class="controls">
+      <button onclick="resetProgress()">Reset Progress</button>
+      <button onclick="toggleAll(true)">Mark All Read</button>
+      <button onclick="toggleAll(false)">Mark All Unread</button>
+    </div>
+  </div>
+
+  <!-- Simple login demo (can connect to backend later) -->
+  <div class="login-card">
+    <h3>🔐 Login</h3>
+    <input type="text" id="username" placeholder="Username" />
+    <input type="password" id="password" placeholder="Password" />
+    <button onclick="login()">Login</button>
+    <p id="loginMsg" class="login-msg"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
